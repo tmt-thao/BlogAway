@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Image from './Image';
 import { Link } from 'react-router-dom';
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+import { IoIosCloseCircle } from "react-icons/io";
+import { LuMenu } from "react-icons/lu";
 
 const Navbar = () => {
 
@@ -22,7 +24,7 @@ const Navbar = () => {
                     className='cursor-pointer text-4xl'
                     onClick={() => setOpen((prev) => !prev)}
                 >
-                    {open ? "X" : "≡"}
+                    {open ? <IoIosCloseCircle /> : <LuMenu />}
                 </div>
 
                 {/* MOBILE LINK LIST */}

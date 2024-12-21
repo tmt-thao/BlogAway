@@ -10,3 +10,5 @@ npm i imagekitio-react
 npm i react-router-dom
 
 npm install @clerk/clerk-react
+
+npm install react-icons

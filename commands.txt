@@ -8,3 +8,5 @@ npx tailwindcss init -p
 npm i imagekitio-react
 
 npm i react-router-dom
+
+npm install @clerk/clerk-react

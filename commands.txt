@@ -6,3 +6,5 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 npm i imagekitio-react
+
+npm i react-router-dom

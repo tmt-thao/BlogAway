@@ -2,3 +2,4 @@ npm create vite@latest
 npm i
 npm i react-router-dom
 npm i flowbite-react
+npm i react-icons
